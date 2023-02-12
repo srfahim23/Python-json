@@ -126,3 +126,31 @@ Convert a Python object containg all the legal types:
     }
 
     print(json.dumps(x))
+
+
+# Format the Result
+The example above prints a JSOn string, but it is not very easy to read, with no indentations and lime breaks.
+
+The json.dumps() method has parameter to make it easier to read the result:
+
+Example:
+
+Use the indent parameter to define the number of indents:
+
+    import json
+
+    x = {
+        "name": "John",
+        "age": 20,
+        "married": True,
+        "devorced": False,
+        "children": ("Ann", "Billy"),
+        "pets": None,
+        "cars": [
+            {"model": "BMW 230", "mpg":27.4},
+            {"model": "Ford Edge", "mpg": 24.1}
+        ]
+    }
+
+    # use four indents to make it easier to read the result:
+    print(json.dumps(x, indent=4))
