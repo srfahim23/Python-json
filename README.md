@@ -85,23 +85,23 @@ Convert Python objects into JSON strings, and print the values:
 
 When you convert from Python to JSON, Python objects are converted into the JSON (JavaScript) equivalent:
 
-Python              JSON
+Python   -           JSON
 
-dict                Object
+dict      -          Object
 
-list                Array
+list        -        Array
 
-tuple               Array 
+tuple        -       Array 
 
-str                 String
+str      -           String
 
-int                 Number
+int       -          Number
 
-float               Number
+float     -          Number
 
-True                true
+True       -         true
 
-False               false
+False     -          false
 
-None                null
+None       -         null
 
