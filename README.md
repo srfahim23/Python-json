@@ -81,3 +81,27 @@ Convert Python objects into JSON strings, and print the values:
     print(json.dumps(True))
     print(json.dumps(False))
     print(json.dumps(None))
+
+
+When you convert from Python to JSON, Python objects are converted into the JSON (JavaScript) equivalent:
+
+Python              JSON
+
+dict                Object
+
+list                Array
+
+tuple               Array 
+
+str                 String
+
+int                 Number
+
+float               Number
+
+True                true
+
+False               false
+
+None                null
+
